@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "deploy": "powershell bin/deploy.bat"
+    "deploy": "powershell bin/deploy.bat && cp -r ./dist ./doc"
   },
   "dependencies": {
     "three": "^0.159.0",
